@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+
+* { margin: 0; }
+body { width: 100%;}
+
+.header {
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 16px;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0 10px;
+    width: 100%;
+    height: 150px;
+    background-color: teal;
+}
+
+.header h1 { color: white; padding-left: 15px; padding-top: 15px; font-size: 50px;}
+
+.topnav { margin-top: 25px; margin-left: 15px; margin-right: 15px; }
+.topnav a { text-decoration: none; color: white; font-size: 25px; font-weight: bold; }
+
+.box { width: 100%; height: auto;}
+.box1 {
+    padding: 0 10px;
+    width: 66%;
+    height: auto;
+}
+
+.img img { width: 100%; height: auto; padding: 0 10px;}
+
+.table { padding: 0 10px; width: 100%; height: auto;}
+.table h1 { font-weight: normal;}
+
+.ta1 {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid rgb(228, 228, 228);
+    margin: 15px 0;
+
+}
+.ta1 th, .ta1 td { 
+    text-align: left;
+    padding: 10px;
+}
+    
+.tal tr { border-bottom: 1px solid rgb(228, 228, 228);}
+.ta1 th { background-color: teal; color: white;}
+.ta1 tr:nth-child(2n+1) { background-color: rgb(228, 228, 228);}
+
+.ta2 {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid rgb(228, 228, 228);
+    margin: 15px 0;
+}
+
+.ta2 th, .ta2 td {
+    text-align: left;
+    padding: 10px;
+}
+
+.ta2 tr { border-bottom: 1px solid rgb(228, 228, 228);}
+.ta2 th { background-color: teal; color: white;}
+.ta2 tr:nth-child(2n+1) { background-color: rgb(228, 228, 228);}
+
+.ta3 { 
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid rgb(228, 228, 228);
+    margin: 15px 0;
+}
+
+.ta3 th, .ta3 td {
+    text-align: left;
+    padding: 10px;
+}
+
+.ta3 tr { border-bottom: 1px solid rgb(228, 228, 228);}
+.ta3 th { background-color: teal; color: white;}
+.ta3 tr:nth-child(2n+1) { background-color: rgb(228, 228, 228);}
+
+.box1 { float: left;}
+.text { float: left;}
+
+.text { box-sizing: border-box; width: 32%; height: 300px; padding: 0 15px;}
+.h1 { width: 100%; padding-left: 10px;}
+.p1 { width: 100%; padding-left: 10px;}
+.h1 h1 { line-height: 2.5;}
+p { line-height: 2.5; }
